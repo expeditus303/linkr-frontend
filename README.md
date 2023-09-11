@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Linkr - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+O frontend do Linkr é uma interface interativa e amigável para a emocionante plataforma de rede social que permite compartilhar links e interagir com outros entusiastas da web. Esta aplicação foi desenvolvida com tecnologias modernas, como React, e oferece uma série de recursos e funcionalidades para uma experiência de usuário envolvente.
 
-In the project directory, you can run:
+![Linkr Demo](https://caminho/para/imagem.gif)
 
-### `npm start`
+🚀 **[Linkr Live Demo](https://projeto19-linkr-front-77u8lzs42-kadioba.vercel.app/)**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🪪 Você pode usar as seguitnes credenciais de teste **email**: "teste@teste.com" e **senha**: "teste"
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+⚠️ A demonsntração pode apresentar instabilidades devido ao uso de servidores gratuitos
 
-### `npm test`
+Repositório back-end: [https://github.com/kadioba/projeto19-linkr-back](https://github.com/kadioba/projeto19-linkr-back)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sobre
 
-### `npm run build`
+O Linkr é uma rede social focada em compartilhamento de links que permite aos usuários descobrir e compartilhar conteúdo interessante da web. Algumas das principais características do frontend incluem:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Feed Personalizado:** Os usuários têm acesso a um feed personalizado que exibe os posts dos usuários que eles seguem.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Exploração de Hashtags:** As hashtags são destacadas em cada post, permitindo aos usuários explorar tópicos específicos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Comentários e Repostagens:** Os usuários podem comentar em posts e repostá-los em sua própria timeline.
 
-### `npm run eject`
+- **Pesquisa de Usuários:** Uma funcionalidade de busca permite aos usuários encontrar facilmente outros usuários.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Autenticação Segura:** A autenticação é feita de forma segura, garantindo a proteção das informações dos usuários.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Este projeto foi desenvolvido para oferecer uma experiência excepcional de compartilhamento de links e interação social na web.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Tecnologias
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React
+- Axios (para fazer chamadas à API)
+- React Router Dom (para navegação)
+- Styled Components (para estilos)
+- Outras bibliotecas e ferramentas essenciais
 
-## Learn More
+## Como Executar
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Siga as etapas abaixo para configurar e executar o frontend do Linkr em sua máquina local:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone o repositório do frontend em sua máquina:
 
-### Code Splitting
+```bash
+git clone https://github.com/seu-usuario/projeto-linkr-frontend
+cd projeto-linkr-frontend
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Crie um arquivo `.env` no diretório raiz do projeto e configure a seguinte variável de ambiente para se conectar ao backend:
 
-### Analyzing the Bundle Size
+```dotenv
+REACT_APP_API_URL=http://localhost:5000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3. Instale as dependências do projeto executando o seguinte comando:
 
-### Making a Progressive Web App
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. Inicie a aplicação frontend:
 
-### Advanced Configuration
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Agora, o frontend estará em execução em `http://localhost:3000`, permitindo que você explore todas as funcionalidades e recursos do Linkr.
 
-### Deployment
+Certifique-se de que o backend do Linkr também esteja em execução para aproveitar todas as funcionalidades de interação social.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Sinta-se à vontade para explorar e interagir com o frontend do Linkr! Se você encontrar algum problema ou tiver sugestões de melhoria, não hesite em relatar ou contribuir para o projeto.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Aproveite o uso do Linkr e compartilhe seus links favoritos! 🌐
