@@ -47,25 +47,25 @@ Follow the steps below to set up and run the Linkr frontend on your local machin
 1. Clone the frontend repository on your machine:
    ```bash
    git clone https://github.com/expeditus303/linkr-frontend.git
-```
+    ```
 
 2. Create a .env file in the project's root directory and configure the following environment variable to connect to the backend:
 
-```dotenv
-REACT_APP_API_URL=http://localhost:5000
-```
+    ```dotenv
+    REACT_APP_API_URL=http://localhost:5000
+    ```
 
 3. Install the project dependencies by running the following command:
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 4. Start the frontend application:
 
-```bash
-npm start
-```
+    ```bash
+    npm start
+    ```
 
 Now, the frontend will be running at http://localhost:3000, allowing you to explore all the functionalities and features of Linkr.
 
