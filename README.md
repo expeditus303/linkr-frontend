@@ -10,6 +10,7 @@ The frontend of Linkr provides an interactive and user-friendly interface for th
   <img height="280em" src="https://github.com/kadioba/projeto19-linkr-front/blob/main/demo-images/Desktop%20-%205.png">
   <img height="280em" src="https://github.com/kadioba/projeto19-linkr-front/blob/main/demo-images/Desktop%20-%2027.png">
   <img height="280em" src="https://github.com/kadioba/projeto19-linkr-front/blob/main/demo-images/Desktop%20-%2026.png">
+  <br>
 </div>
 
 🚀 **[Linkr Live Demo](https://projeto19-linkr-front-77u8lzs42-kadioba.vercel.app/)**
