@@ -5,13 +5,8 @@
 The frontend of Linkr provides an interactive and user-friendly interface for the exciting social networking platform that allows sharing links and interacting with other web enthusiasts. This application is developed using modern technologies, such as React, and offers a range of features and functionalities for an engaging user experience.
 
 
-<div align="center">
-  <img height="280em" src="https://github.com/kadioba/projeto19-linkr-front/blob/main/demo-images/Desktop%20-%203.png">
-  <img height="280em" src="https://github.com/kadioba/projeto19-linkr-front/blob/main/demo-images/Desktop%20-%205.png">
-  <img height="280em" src="https://github.com/kadioba/projeto19-linkr-front/blob/main/demo-images/Desktop%20-%2027.png">
-  <img height="280em" src="https://github.com/kadioba/projeto19-linkr-front/blob/main/demo-images/Desktop%20-%2026.png">
-  <br>
-</div>
+![Linkr demo](https://user-images.githubusercontent.com/115481094/270741486-42a66a26-a857-49d1-a285-d34c64d00338.gif)
+
 
 🚀 **[Linkr Live Demo](https://projeto19-linkr-front-77u8lzs42-kadioba.vercel.app/)**
 
