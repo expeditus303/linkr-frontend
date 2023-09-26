@@ -1,8 +1,9 @@
 # Linkr - Frontend
 
-## Descrição
+## Description
 
-O frontend do Linkr é uma interface interativa e amigável para a emocionante plataforma de rede social que permite compartilhar links e interagir com outros entusiastas da web. Esta aplicação foi desenvolvida com tecnologias modernas, como React, e oferece uma série de recursos e funcionalidades para uma experiência de usuário envolvente.
+The frontend of Linkr provides an interactive and user-friendly interface for the exciting social networking platform that allows sharing links and interacting with other web enthusiasts. This application is developed using modern technologies, such as React, and offers a range of features and functionalities for an engaging user experience.
+
 
 <div align="center">
   <img height="280em" src="https://github.com/kadioba/projeto19-linkr-front/blob/main/demo-images/Desktop%20-%203.png">
@@ -11,72 +12,65 @@ O frontend do Linkr é uma interface interativa e amigável para a emocionante p
   <img height="280em" src="https://github.com/kadioba/projeto19-linkr-front/blob/main/demo-images/Desktop%20-%2026.png">
 </div>
 
-
 🚀 **[Linkr Live Demo](https://projeto19-linkr-front-77u8lzs42-kadioba.vercel.app/)**
 
-🪪 Você pode usar as seguitnes credenciais de teste **email**: "teste@teste.com" e **senha**: "teste"
+🪪 You can use the following test credentials **email**: "teste@teste.com" and **password**: "teste"
 
-⚠️ A demonsntração pode apresentar instabilidades devido ao uso de servidores gratuitos
+⚠️ The demo may exhibit instability due to the use of free servers.
 
-Repositório back-end: [https://github.com/kadioba/projeto19-linkr-back](https://github.com/kadioba/projeto19-linkr-back)
+Back-end Repository: https://github.com/expeditus303/linkr-backend
 
-## Sobre
+## About
 
-O Linkr é uma rede social focada em compartilhamento de links que permite aos usuários descobrir e compartilhar conteúdo interessante da web. Algumas das principais características do frontend incluem:
+Linkr is a social network focused on link sharing, allowing users to discover and share interesting web content. Some of the main features of the frontend include:
 
-- **Feed Personalizado:** Os usuários têm acesso a um feed personalizado que exibe os posts dos usuários que eles seguem.
+- **Customized Feed:** Users have access to a personalized feed displaying posts from the users they follow.
+- **Exploration of Hashtags:** Hashtags are highlighted in each post, allowing users to explore specific topics.
+- **Comments and Reposts:** Users can comment on posts and repost them on their own timeline.
+- **User Search:** A search functionality allows users to easily find other users.
+- **Secure Authentication:** Authentication is handled securely, ensuring user information protection.
 
-- **Exploração de Hashtags:** As hashtags são destacadas em cada post, permitindo aos usuários explorar tópicos específicos.
+This project was developed to offer an exceptional link-sharing and social interaction experience on the web.
 
-- **Comentários e Repostagens:** Os usuários podem comentar em posts e repostá-los em sua própria timeline.
-
-- **Pesquisa de Usuários:** Uma funcionalidade de busca permite aos usuários encontrar facilmente outros usuários.
-
-- **Autenticação Segura:** A autenticação é feita de forma segura, garantindo a proteção das informações dos usuários.
-
-Este projeto foi desenvolvido para oferecer uma experiência excepcional de compartilhamento de links e interação social na web.
-
-### Tecnologias
+### Technologies
 
 - React
-- Axios (para fazer chamadas à API)
-- React Router Dom (para navegação)
-- Styled Components (para estilos)
-- Outras bibliotecas e ferramentas essenciais
+- Axios (for API calls)
+- React Router Dom (for navigation)
+- Styled Components (for styling)
+- Other essential libraries and tools
 
-## Como Executar
+## How to Run
 
-Siga as etapas abaixo para configurar e executar o frontend do Linkr em sua máquina local:
+Follow the steps below to set up and run the Linkr frontend on your local machine:
 
-1. Clone o repositório do frontend em sua máquina:
-
-```bash
-git clone https://github.com/seu-usuario/projeto-linkr-frontend
-cd projeto-linkr-frontend
+1. Clone the frontend repository on your machine:
+   ```bash
+   git clone https://github.com/expeditus303/linkr-frontend.git
 ```
 
-2. Crie um arquivo `.env` no diretório raiz do projeto e configure a seguinte variável de ambiente para se conectar ao backend:
+2. Create a .env file in the project's root directory and configure the following environment variable to connect to the backend:
 
 ```dotenv
 REACT_APP_API_URL=http://localhost:5000
 ```
 
-3. Instale as dependências do projeto executando o seguinte comando:
+3. Install the project dependencies by running the following command:
 
 ```bash
 npm install
 ```
 
-4. Inicie a aplicação frontend:
+4. Start the frontend application:
 
 ```bash
 npm start
 ```
 
-Agora, o frontend estará em execução em `http://localhost:3000`, permitindo que você explore todas as funcionalidades e recursos do Linkr.
+Now, the frontend will be running at http://localhost:3000, allowing you to explore all the functionalities and features of Linkr.
 
-Certifique-se de que o backend do Linkr também esteja em execução para aproveitar todas as funcionalidades de interação social.
+Ensure that the Linkr backend is also running to fully enjoy all the social interaction features.
 
-Sinta-se à vontade para explorar e interagir com o frontend do Linkr! Se você encontrar algum problema ou tiver sugestões de melhoria, não hesite em relatar ou contribuir para o projeto.
+Feel free to explore and interact with the Linkr frontend! If you encounter any issues or have suggestions for improvement, do not hesitate to report or contribute to the project.
 
-Aproveite o uso do Linkr e compartilhe seus links favoritos! 🌐
+Enjoy using Linkr and share your favorite links! 🌐
